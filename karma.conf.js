@@ -6,14 +6,9 @@ module.exports = function(config){
       'external/angular-1.2.3.js',
       'external/angular-mocks.js',
       'external/pouchdb-nightly.js',
+      'external/WorkerConsole.js',
       'test/*.js',
-      'angular-pouchdb.js'
-    ],
-
-    exclude : [
-      'app/lib/angular/angular-loader.js',
-      'app/lib/angular/*.min.js',
-      'app/lib/angular/angular-scenario.js'
+      'angular*.js'
     ],
 
     autoWatch : true,
